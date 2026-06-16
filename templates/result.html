@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Результат</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+</head>
+
+<body>
+<div class="main">
+<h1>Результат анализа</h1>
+<div class="upload">
+{% if result %}
+
+<h2 style="color:red">
+Конфликт обнаружен
+</h2>
+
+{% else %}
+
+<h2 style="color:green">
+Конфликт не обнаружен
+</h2>
+
+{% endif %}
+
+<p>
+Количество обнаружений:
+<b>{{ count }}</b>
+</p>
+
+<a class="link" href="{{ url_for('static', filename='result.avi') }}">
+Скачать обработанное видео
+</a>
+
+<a class="link" href="/">
+Загрузить другое видео
+</a>
+</div>
+</div>
+
+</body>
+</html>

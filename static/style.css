@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(61, 1, 13);
+    background-image: url('favicon.ico');
+}
+.main{
+    background-color: rgb(254, 226, 162);
+    width: 70%;
+    margin: auto;
+    height: 1000px;
+}
+h1 {
+    text-align: center;
+    padding: 5%;
+}
+.upload{
+    width:600px;
+    margin: auto;
+    text-align: center;
+}
+video{
+    margin: auto;}
+
+.file-btn {
+            position: relative;
+            font-size: 20px;
+            cursor: pointer;
+            color: rgb(143, 26, 0);
+}
+.submit-btn {
+            position: relative;
+            font-size: 20px;
+            cursor: pointer;
+}
+.loading-gif {
+            display: none;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-left: 8px;
+        }
+.submit-btn.is-loading {
+            opacity: 0.7;
+            pointer-events: none;
+        }
+
+.submit-btn.is-loading .loading-gif {
+            display: inline-block;
+        }
+
+.submit-btn.is-loading .btn-text {
+            display: none;
+        }
+
+.link{
+    padding: 5%;
+    color: rgb(143, 26, 0);
+    font-size: 20px;
+}
