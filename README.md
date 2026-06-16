@@ -77,9 +77,7 @@
 <p align="center">
   <img src="runs/detect/train/confusion_matrix.png" alt="Confusion Matrix" width="400"/>
 </p>
----
-## Ссылка на Google Drive
 
-https://drive.google.com/drive/folders/1ldrVXTNAJnfQUAtySjdWKUtUMj3fp_HW?usp=sharing
 ---
+
 *Проект разработан в рамках Цифровой кафедры УГГУ.*
