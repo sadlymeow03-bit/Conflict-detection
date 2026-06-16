@@ -1,0 +1,6 @@
+names:
+- conflict
+nc: 1
+path: ./dataset
+train: images/train
+val: images/train
